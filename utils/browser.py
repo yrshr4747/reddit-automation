@@ -43,28 +43,38 @@ def human_delay(min_sec=1.0, max_sec=3.0):
 
 
 def get_browser_context(playwright, username=None):
-    # CRITICAL: headless must be True for Render
+    # Toggle headless based on environment
+    # On your Mac, it will use HEADLESS=False. On Render, it stays True.
+    is_render = os.environ.get("RENDER", "false").lower() == "true"
+    headless_setting = True if is_render else False
+
     browser = playwright.chromium.launch(
-        headless=True,
+        headless=headless_setting, 
         args=[
             "--no-sandbox",
             "--disable-setuid-sandbox",
-            "--disable-dev-shm-usage", # Necessary for Docker memory limits
-            "--single-process",        # Forces everything into one process to save RAM
+            "--disable-dev-shm-usage",
+            "--single-process",
             "--no-zygote",
             "--disable-gpu"
         ]
     )
 
     session_file = os.path.join(SESSION_DIR, f"{username}.json") if username else None
-    storage_state = session_file if (session_file and os.path.exists(session_file)) else None
-
+    
+    # Create context with a realistic window size
     context = browser.new_context(
-        storage_state=storage_state,
-        user_agent=DEFAULT_HEADERS["User-Agent"]
+        storage_state=session_file if (session_file and os.path.exists(session_file)) else None,
+        user_agent=DEFAULT_HEADERS["User-Agent"],
+        viewport={'width': 1280, 'height': 720} # Human-like screen resolution
     )
 
     page = context.new_page()
+    
+    # 🕵️ Simple Stealth: Mask the automation flag
+    # This helps bypass the "Security Wall" you saw in the logs
+    page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+    
     return browser, context, page
 
 
