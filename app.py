@@ -30,7 +30,7 @@ def index():
     """Serves the Automation Dashboard UI."""
     return render_template("index.html")
 
-@app.route("/", methods=["GET"])
+@app.route("/health", methods=["GET"])
 def health_check():
     """Basic health check endpoint."""
     return jsonify({"status": "ok", "message": "Reddit Automation API is running."}), 200
