@@ -4,7 +4,6 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Install system dependencies
-# We added libxshmfence1 and libxtst6 which are often missing in slim images
 RUN apt-get update && apt-get install -y \
     wget \
     curl \
@@ -30,7 +29,6 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Install Playwright and Chromium WITH dependencies
-# The --with-deps flag is the "magic" that fixes the error in your screenshot
 RUN playwright install chromium
 RUN playwright install-deps chromium
 
@@ -44,5 +42,4 @@ RUN mkdir -p sessions logs
 EXPOSE 10000
 
 # SINGLE WORKER ONLY to stay under 512MB RAM
-# Added threads=1 to keep memory usage predictable
 CMD ["gunicorn", "--bind", "0.0.0.0:10000", "--workers", "1", "--threads", "1", "--timeout", "120", "app:app"]
