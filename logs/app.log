@@ -1,0 +1,284 @@
+2026-04-03 17:07:41 | INFO | __main__ | Creating account for username: Yash_Test_Bot
+2026-04-03 17:07:41 | INFO | services.account | Starting account creation for: Yash_Test_Bot
+2026-04-03 17:07:45 | INFO | services.account | Navigating to Reddit signup page...
+2026-04-03 17:07:51 | INFO | services.account | Filling email field...
+2026-04-03 17:07:56 | INFO | services.account | Filling username field...
+2026-04-03 17:08:06 | ERROR | services.account | Timeout during account creation: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("input[name=\"username\"]") to be visible
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+
+2026-04-03 17:20:38 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 17:20:38 | INFO | services.account | Starting account creation for: ath_Test_Bot
+2026-04-03 17:20:40 | INFO | services.account | Navigating to Reddit signup page...
+2026-04-03 17:20:46 | INFO | services.account | Filling email field...
+2026-04-03 17:20:52 | INFO | services.account | Filling username field...
+2026-04-03 17:21:02 | ERROR | services.account | Timeout during account creation: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("input[name=\"username\"]") to be visible
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+
+2026-04-03 17:27:27 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 17:27:27 | INFO | services.account | Starting account creation for: ath_Test_Bot
+2026-04-03 17:27:28 | INFO | services.account | Navigating to Reddit signup page...
+2026-04-03 17:27:35 | INFO | services.account | Filling email field...
+2026-04-03 17:27:40 | INFO | services.account | Filling username field...
+2026-04-03 17:27:50 | ERROR | services.account | Timeout during account creation: Locator.wait_for: Timeout 10000ms exceeded.
+Call log:
+waiting for locator("input[name=\"username\"]") to be visible
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+
+2026-04-03 17:29:51 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 17:29:51 | INFO | services.account | Starting account creation for: ath_Test_Bot
+2026-04-03 17:29:54 | INFO | services.account | Navigating to Reddit signup page...
+2026-04-03 17:30:01 | INFO | services.account | Filling email field...
+2026-04-03 17:30:05 | INFO | services.account | Pressed Enter after email, moving to Step 3...
+2026-04-03 17:30:05 | INFO | services.account | Waiting for username field...
+2026-04-03 17:51:20 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 17:51:20 | INFO | services.account | Starting Golden Run for: ath_Test_Bot
+2026-04-03 17:51:32 | INFO | services.account | Submitted email: user_1775218880@1secmail.com
+2026-04-03 17:51:38 | INFO | services.account | Email verification wall detected. Polling API...
+2026-04-03 17:51:38 | INFO | services.account | Checking inbox for user_1775218880@1secmail.com...
+2026-04-03 17:51:39 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:40 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:41 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:42 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:42 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:43 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:44 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:45 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:45 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:46 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:47 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:48 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:48 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:49 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 17:51:50 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:12 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 18:22:12 | INFO | services.account | Starting Golden Run for: ath_Test_Bot
+2026-04-03 18:22:23 | INFO | services.account | Submitted email: user_1775220732@1secmail.com
+2026-04-03 18:22:29 | INFO | services.account | Email verification wall detected. Polling API...
+2026-04-03 18:22:29 | INFO | services.account | Checking inbox for user_1775220732@1secmail.com...
+2026-04-03 18:22:30 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:31 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:32 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:33 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:33 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:34 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:35 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:36 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:37 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:37 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:38 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:39 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:40 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:40 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:22:41 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:38:38 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 18:38:38 | INFO | services.account | Starting Golden Run for: ath_Test_Bot
+2026-04-03 18:48:26 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 18:48:26 | INFO | services.account | Starting Golden Run for: ath_Test_Bot
+2026-04-03 18:48:34 | INFO | services.account | Submitted email: user_1775222306@1secmail.com
+2026-04-03 18:48:39 | INFO | services.account | Email verification wall detected. Polling API...
+2026-04-03 18:48:39 | INFO | services.account | Checking inbox for user_1775222306@1secmail.com...
+2026-04-03 18:48:41 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:43 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:46 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:46 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:48 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:48 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:49 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:50 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:51 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:52 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:53 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:54 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:55 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:56 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:48:57 | ERROR | services.account | Error checking mail: Expecting value: line 1 column 1 (char 0)
+2026-04-03 18:52:05 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 18:52:05 | INFO | services.account | Starting Golden Run for: ath_Test_Bot
+2026-04-03 18:55:06 | INFO | __main__ | Creating account for username: ath_Test_Bot
+2026-04-03 18:55:06 | INFO | services.account | Starting Golden Run for: ath_Test_Bot
+2026-04-03 18:55:12 | INFO | services.account | Opening Reddit signup page...
+2026-04-03 18:55:37 | INFO | services.account | Page loaded: https://www.reddit.com/register/?solution=492fb4bbe075bef6492fb4bbe075bef6&js_challenge=1&token=bbbe4bf1c9a2b5160829c4be34da58617f75e5839e7a2cd48d965506ef88dee3
+2026-04-03 18:55:39 | INFO | services.account | Submitted email: user1775222708@sharebot.net
+2026-04-03 18:55:45 | INFO | services.account | Verification detected. Fetching code...
+2026-04-03 18:55:46 | INFO | services.account | Waiting for email... (1/20)
+2026-04-03 18:55:51 | INFO | services.account | Waiting for email... (2/20)
+2026-04-03 18:55:57 | INFO | services.account | Waiting for email... (3/20)
+2026-04-03 18:56:03 | INFO | services.account | Waiting for email... (4/20)
+2026-04-03 18:56:09 | INFO | services.account | Waiting for email... (5/20)
+2026-04-03 18:56:15 | INFO | services.account | Waiting for email... (6/20)
+2026-04-03 18:56:20 | INFO | services.account | Waiting for email... (7/20)
+2026-04-03 18:56:26 | INFO | services.account | Waiting for email... (8/20)
+2026-04-03 18:56:31 | INFO | services.account | Waiting for email... (9/20)
+2026-04-03 18:56:37 | INFO | services.account | Waiting for email... (10/20)
+2026-04-03 18:56:43 | INFO | services.account | Waiting for email... (11/20)
+2026-04-03 18:56:49 | INFO | services.account | Waiting for email... (12/20)
+2026-04-03 18:56:55 | INFO | services.account | Waiting for email... (13/20)
+2026-04-03 18:57:01 | INFO | services.account | Code received: 000000
+2026-04-03 18:57:08 | INFO | services.account | Setting username and password...
+2026-04-03 18:57:23 | ERROR | services.account | Playwright timeout: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+waiting for locator("input[type=\"text\"][minlength=\"3\"]").first to be visible
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+  -   locator resolved to hidden <input type="text" minlength="3" maxlength="20" name="u…/>
+
+2026-04-03 20:45:44 | INFO | __main__ | Creating account for username: New_Automation_User
+2026-04-03 20:45:44 | INFO | services.account | Starting registration flow for: New_Automation_User
+2026-04-03 20:45:46 | INFO | services.account | Navigating to Reddit signup page...
+2026-04-03 20:45:53 | INFO | services.account | Filling email: new_test@example.com
+2026-04-03 20:45:59 | ERROR | services.account | Unexpected error: Locator.is_visible: Error: strict mode violation: locator("iframe[title*=\"reCAPTCHA\"]") resolved to 2 elements:
+    1) <iframe width="304" height="78" scrolling="no" framebord…></iframe> aka locator("iframe[name=\"a-z5g4qkmsez7h\"]")
+    2) <iframe width="256" height="60" scrolling="no" framebord…></iframe> aka locator("iframe[name=\"a-ol4kow2gy2cx\"]")
+
+Call log:
+  checking visibility of locator("iframe[title*=\"reCAPTCHA\"]")
+
+2026-04-03 20:46:09 | INFO | __main__ | User 'ath_Test_Bot' joining r/test
+2026-04-03 20:46:09 | INFO | services.subreddit | Attempting to join r/test as ath_Test_Bot
+2026-04-03 20:46:10 | ERROR | services.subreddit | Unexpected error joining r/test: BrowserContext.add_cookies: cookies: expected array, got object
+2026-04-03 20:52:06 | INFO | __main__ | User 'ath_Test_Bot' joining r/test
+2026-04-03 20:52:06 | INFO | services.subreddit | Attempting to join r/test as ath_Test_Bot
+2026-04-03 20:52:09 | INFO | services.subreddit | Navigating to https://www.reddit.com/r/test/
+2026-04-03 20:52:37 | INFO | __main__ | User 'ath_Test_Bot' posting to r/test: 'API Test'
+2026-04-03 20:52:37 | INFO | services.post | Creating post in r/test as ath_Test_Bot
+2026-04-03 20:52:39 | INFO | services.post | Navigating to submit page: https://www.reddit.com/r/test/submit
+2026-04-03 20:52:39 | ERROR | services.subreddit | Timeout while joining r/test: Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.reddit.com/r/test/", waiting until "networkidle"
+
+2026-04-03 20:53:09 | ERROR | services.post | Timeout while creating post: Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.reddit.com/r/test/submit", waiting until "networkidle"
+
+2026-04-03 21:09:20 | INFO | __main__ | User 'yashrajsingh4747@gmail.com' joining r/startups
+2026-04-03 21:09:20 | INFO | services.subreddit | Attempting to join r/startups as yashrajsingh4747@gmail.com
+2026-04-03 21:09:20 | WARNING | services.subreddit | No saved session found for: yashrajsingh4747@gmail.com
+2026-04-03 21:09:22 | INFO | __main__ | User 'yashrajsingh4747@gmail.com' joining r/startups
+2026-04-03 21:09:22 | INFO | services.subreddit | Attempting to join r/startups as yashrajsingh4747@gmail.com
+2026-04-03 21:09:22 | WARNING | services.subreddit | No saved session found for: yashrajsingh4747@gmail.com
+2026-04-03 21:09:22 | INFO | __main__ | User 'yashrajsingh4747@gmail.com' joining r/startups
+2026-04-03 21:09:22 | INFO | services.subreddit | Attempting to join r/startups as yashrajsingh4747@gmail.com
+2026-04-03 21:09:22 | WARNING | services.subreddit | No saved session found for: yashrajsingh4747@gmail.com
+2026-04-03 21:11:30 | INFO | __main__ | User 'yashrajsingh4747@gmail.com' joining r/startups
+2026-04-03 21:11:30 | INFO | services.subreddit | Attempting to join r/startups as yashrajsingh4747@gmail.com
+2026-04-03 21:11:30 | WARNING | services.subreddit | No saved session found for: yashrajsingh4747@gmail.com
+2026-04-03 21:15:12 | INFO | __main__ | User 'ath_Test_Bot' joining r/startups
+2026-04-03 21:15:12 | INFO | services.subreddit | Attempting to join r/startups as ath_Test_Bot
+2026-04-03 21:15:15 | INFO | services.subreddit | Navigating to https://www.reddit.com/r/startups/
+2026-04-03 21:15:45 | ERROR | services.subreddit | Timeout while joining r/startups: Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.reddit.com/r/startups/", waiting until "networkidle"
+
+2026-04-03 21:19:08 | INFO | __main__ | Creating account for username: xqa
+2026-04-03 21:19:08 | INFO | services.account | Starting registration flow for: xqa
+2026-04-03 21:19:10 | INFO | services.account | Navigating to Reddit signup page...
+2026-04-03 21:19:15 | INFO | services.account | Filling email: vhvjhv@text
+2026-04-03 21:19:28 | ERROR | services.account | Unexpected error: Locator.is_visible: Target page, context or browser has been closed
