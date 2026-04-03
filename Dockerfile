@@ -3,7 +3,8 @@ FROM python:3.11-slim
 # Set working directory
 WORKDIR /app
 
-# Install system dependencies
+# 1. Install EVERY specific library Chromium needs manually
+# This removes the need for 'playwright install-deps' which is failing.
 RUN apt-get update && apt-get install -y \
     wget \
     curl \
@@ -22,24 +23,23 @@ RUN apt-get update && apt-get install -y \
     libcairo2 \
     libxshmfence1 \
     libxtst6 \
+    libx11-xcb1 \
+    libxcb-dri3-0 \
+    libxss1 \
+    libgtk-3-0 \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy and install Python dependencies
+# 2. Install Python requirements
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright and Chromium WITH dependencies
+# 3. Install ONLY the Chromium binary (No deps command here)
 RUN playwright install chromium
-RUN playwright install-deps chromium
 
-# Copy application source code
+# 4. Copy code and setup
 COPY . .
-
-# Create directories for sessions and logs
 RUN mkdir -p sessions logs
 
-# Render Free Tier default port
+# 5. Production Settings
 EXPOSE 10000
-
-# SINGLE WORKER ONLY to stay under 512MB RAM
 CMD ["gunicorn", "--bind", "0.0.0.0:10000", "--workers", "1", "--threads", "1", "--timeout", "120", "app:app"]
